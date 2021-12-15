@@ -1,0 +1,57 @@
+*{box-sizing: border-box;}
+body{background-color: #fff; padding: 30px;}
+.wrapper{display: flex;justify-content: space-between;}
+.fillupform{width: 500px; border-radius: 10px; padding: 35px; background-color: #fffaf0;}
+.datalist{width: calc(100% - 530px); border-radius: 10px; padding: 35px; background-color: #fffaf0;}
+.fullWidth{float:left;width:100%;margin-bottom: 50px;}
+.d-flex{width: 100%; display: flex;}
+.shadow{box-shadow: 0 0 21px 0px rgb(0 0 0 / 24%); border-radius: 20px; overflow: hidden;}
+
+/* Form design */
+.form-group{float: left; width: 100%; margin-bottom: 15px; display: block;}
+.form-label {float: left; width: 100%; margin-bottom: 5px;}
+.form-control {float: left; width: 100%; margin-bottom: 5px; border: 0; padding: 15px 15px; border-radius: 5px; resize: none; font-family: 'Roboto Condensed', sans-serif; }
+.form-control:hover, .form-control:focus {outline: none;}
+.btn{border: 0; float: right; border-radius: 8px; padding: 15px 30px; text-transform: uppercase; color: #fff; margin-top: 10px; display: block; max-width: 175px; text-align: center; cursor: pointer; transition: all .3s ease-in-out}
+.btn:hover{background-color: #000;}
+
+/* Background Colors */
+.bg_floralwhite{background-color: #fffaf0;}
+.text_bg_floralwhite{color: #c9a764;}
+.bg_floralwhite_dark{background-color: #c9a764;}
+.bg_orange{background-color: #fff4e7;}
+.text_bg_orange{color: #ffa02c;}
+.bg_orange_dark{background-color: #ffa02c;}
+.bg_gray{background-color: #f1f1f1;}
+.text_bg_gray{color: #adadad;}
+.bg_gray_dark{background-color: #adadad;}
+.bg_blue{background-color: #eff9ff;}
+.text_bg_blue{color: #40b6ff;}
+.bg_blue_dark{background-color: #40b6ff;}
+.bg_red{background-color: #ffefef;}
+.text_bg_red{color: #ff3d3d;}
+.bg_red_dark{background-color: #ff3d3d;}
+.bg_yellow{background-color: #fdffe2;}
+.text_bg_yellow{color: #deed03;}
+.bg_yellow_dark{background-color: #deed03;}
+.bg_green{background-color: #ebffe6;}
+.text_bg_green{color: #37ff05;}
+.bg_green_dark{background-color: #37ff05;}
+.bg_purple{background-color: #fcedff;}
+.text_bg_purple{color: #de3bff;}
+.bg_purple_dark{background-color: #de3bff;}
+
+
+/* Fixed table width */
+table{width: 100%;table-layout: fixed;}
+table th{text-align: left;}
+table th, table td{padding: 15px 8px 15px 8px;}
+table th:nth-child(1){width: 5%;}
+table th:nth-child(2){width: 23%;}
+table th:nth-child(3){width: 32%;}
+table th:nth-child(4){width: 50%;}
+table th:nth-child(5){width: 7%;}
+table tbody tr:nth-child(odd){background: #fffbf3;}
+table tbody tr:nth-child(even){background: rgba(255, 255, 255, .9);}
+table tbody tr:hover{background: rgba(255, 255, 255, .9);}
+table a{text-decoration: none;}
